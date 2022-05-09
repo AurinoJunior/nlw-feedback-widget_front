@@ -5,7 +5,7 @@ import React from "react";
 export const CloseButton = () => {
   return (
     <Popover.Button
-      className="top-5 right-5 absolute text-zinc-400 hover:text-zinc-100"
+      className="text-zinc-400 hover:text-zinc-100"
       title="Fechar formulário"
     >
       <X weight="bold" className="w-4 h-4" />
